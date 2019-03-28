@@ -388,7 +388,7 @@ openUp(id, name){
 	/********************Печатная версия карточки
 	=====================
 	*********************/
-	this.linkId = 'https://www.metrotunnel.ru/reestr/printver/#id-' + id;
+	this.linkId = 'https://www.proekttunnel.ru/reestr/printver/#id-' + id;
 	this.element.nativeElement.querySelector('#linkprint').setAttribute('link', this.linkId);
 
 	};
