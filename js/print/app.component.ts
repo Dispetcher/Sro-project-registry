@@ -15,7 +15,7 @@ link:string;
 orgName:string;
 cId:string;
 compNameUrl:string = '../../wp-content/plugins/sro-registry/php/compslist.php';/* Link to get company name */
-compInfoUrl:string = '../../wp-content/plugins/sro-registry/php/compinfo.php';/* Link to get company details */
+compInfoUrl:string = '../../wp-content/plugins/sro-registry/php/compslist.php';/* Link to get company details */
 
 constructor(private element:ElementRef, private http:Http, private cdRef:ChangeDetectorRef){}
 
